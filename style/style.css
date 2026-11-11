@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  font-family: "RobotoDraft";
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main aside {
+  overflow: scroll;
+  height: 1000px;
+}
+main aside h3 {
+  margin: 30px;
+}
+main aside h3 span {
+  color: chartreuse;
+}
+main aside #btn > button {
+  background-color: #333;
+  border: #333;
+  border-radius: 0;
+  text-align: left;
+}
+main aside #btn > button:hover {
+  background-color: #141414;
+}
+main aside form {
+  height: 100%;
+  width: 100%;
+}
+main aside form div input {
+  height: 150px;
+}
+main aside form button {
+  display: flex;
+  justify-content: space-between;
+}
+
+article figure {
+  margin-top: 30px;
+}
+article figure img {
+  width: 160px;
+}
+article #title {
+  color: #838383;
+}
+article hr {
+  color: #041717;
+}
+article #action a {
+  background-color: #e2dfdf;
+  color: #041717;
+  border: 0;
+  border-radius: 0%;
+}
+article #action a:hover {
+  background-color: #838383;
+}/*# sourceMappingURL=style.css.map */
+.email-item{cursor:pointer;transition:background-color .2s ease}.email-item:hover{background-color:#f1f1f1}.email-item.active-email{background-color:#e9ecef}
+
+/* Fallback folder icons (visible even if the icon-font CDN is unavailable) */
+.bi-inbox::before { content: "📥" !important; }
+.bi-send::before { content: "📤" !important; }
+.bi-hourglass-bottom::before { content: "📝" !important; }
+.bi-trash::before { content: "🗑️" !important; }
+.bi-pen-fill::before { content: "✏️" !important; }
+.bi-x-lg::before { content: "✖" !important; }

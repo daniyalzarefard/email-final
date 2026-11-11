@@ -1,0 +1,113 @@
+@import"vars";
+
+
+* {
+    margin: 0;
+    font-family: "RobotoDraft";
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+
+    aside {
+        overflow: scroll;
+        height: 1000px;
+
+        h3 {
+            margin: $first-margin;
+
+            span {
+                color: chartreuse;
+            }
+        }
+
+        #btn>button {
+            background-color: $bg-dark;
+            border: $bg-dark;
+            border-radius: 0;
+            text-align: left;
+        }
+
+        #btn>button:hover {
+            background-color: $bg-black;
+
+        }
+
+        form {
+            height: 100%;
+            width: 100%;
+
+
+
+            div {
+                input {
+                    height: 150px;
+                }
+
+            }
+
+            button {
+                display: flex;
+                justify-content: space-between;
+
+            }
+
+        }
+
+    }
+
+}
+
+
+
+article {
+
+
+    figure {
+        margin-top: $first-margin ;
+
+        img {
+            width: $w-img;
+
+        }
+
+    }
+
+    #title {
+        color: $first-color;
+    }
+
+    hr {
+        color: $darkcolor;
+    }
+
+    #action {
+        a {
+            background-color: $whitecolor;
+            color: $darkcolor ;
+            border: 0;
+            border-radius: 0%;
+
+        }
+
+        a:hover {
+            background-color: $first-color;
+        }
+
+    }
+}
+
+// Clickable email cards
+.email-item {
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.email-item:hover {
+    background-color: #f1f1f1;
+}
+
+.email-item.active-email {
+    background-color: #e9ecef;
+}
